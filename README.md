@@ -1,10 +1,8 @@
+<img src="https://capsule-render.vercel.app/api?type=rounded&height=300&color=gradient&text=dns-exfil-go" img/>
 
-# 🧬 dns-exfil-go
-
-[![Uso Ético](https://img.shields.io/badge/uso-educacional-red)](#)  
+----
 Ferramenta escrita em Go para **exfiltração de dados via requisições DNS**, utilizando codificação base32 e fragmentação em subdomínios.
 
----
 
 ## 📌 Visão Geral
 
