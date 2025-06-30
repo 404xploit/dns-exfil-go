@@ -97,11 +97,10 @@ RU5EX09GX1NFU1NJT04.session42.2.exfil.attacker.com
 
 ---
 
-## 🧑‍💻 Autor
+## Autor
 
-**Felipe Gonçalves Costa**
-Especialista em Segurança Ofensiva · Bug Hunter · Exploit Developer
-[GitHub](https://github.com/SEU_USUARIO_AQUI) • [LinkedIn](https://linkedin.com/in/felipe-gonçalves-costa-b26b72346)
+**404xploit**
+[GitHub](https://github.com/404xploit) • [LinkedIn](https://linkedin.com/in/felipe-gonçalves-costa-b26b72346)
 
 ---
 
